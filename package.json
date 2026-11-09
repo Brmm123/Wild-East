@@ -1,9 +1,0 @@
-{
-  "name": "wild-east",
-  "version": "1.0.0",
-  "private": true,
-  "description": "Wild East game server (serves index.html and relays multiplayer over WebSocket)",
-  "main": "server.js",
-  "scripts": { "start": "node server.js" },
-  "engines": { "node": ">=18" }
-}
