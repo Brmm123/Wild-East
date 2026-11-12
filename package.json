@@ -1,0 +1,18 @@
+{
+  "name": "wild-east-server",
+  "version": "1.0.0",
+  "description": "Game server for Wild East: serves the game and relays online rooms (players, presence, hits, chat, poker) over WebSocket.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  },
+  "license": "UNLICENSED",
+  "private": true
+}
